@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CB7B98B3-57FD-4832-A401-DDB27FA78B80"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "858933DA-E0BB-4BC4-A685-E96130BFA314"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CD6E94A-EF98-4F2C-BBD0-D74EB45346E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "initVM()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CD6E94A-EF98-4F2C-BBD0-D74EB45346E6 - be21d85f5f671f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/MB/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "6CD6E94A-EF98-4F2C-BBD0-D74EB45346E6 - f17adaeb70d4926b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/MB/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  uuid = "6CD6E94A-EF98-4F2C-BBD0-D74EB45346E6 - 38e96c08f674adee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "6CD6E94A-EF98-4F2C-BBD0-D74EB45346E6 - 2e2f512d014181d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B28B0BD-390E-4B2B-86E5-915AE693ED9D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "initVM()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B28B0BD-390E-4B2B-86E5-915AE693ED9D - d2737ebb09f68d42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/MB/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "0B28B0BD-390E-4B2B-86E5-915AE693ED9D - f17adaeb70d49f14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #3 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/MB/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "0B28B0BD-390E-4B2B-86E5-915AE693ED9D - e1780f360a74596b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "0B28B0BD-390E-4B2B-86E5-915AE693ED9D - 1dd190c31e231f59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #3 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesLIst/View/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B9C45A9-2841-44B8-964A-89A9E725E5F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Service/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "load(_:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B9C45A9-2841-44B8-964A-89A9E725E5F6 - f26a42922b285e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "6B9C45A9-2841-44B8-964A-89A9E725E5F6 - f26a42922b285e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "6B9C45A9-2841-44B8-964A-89A9E725E5F6 - f26a42922b2851ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "6B9C45A9-2841-44B8-964A-89A9E725E5F6 - f26a42922b2851ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "6B9C45A9-2841-44B8-964A-89A9E725E5F6 - f26a42922b2851cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F522A324-3FDB-43B1-A532-B53861121E24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Service/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "load(_:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F522A324-3FDB-43B1-A532-B53861121E24 - f26a42922b28510f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "F522A324-3FDB-43B1-A532-B53861121E24 - f26a42922b28510f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "F522A324-3FDB-43B1-A532-B53861121E24 - f26a42922b28510f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "F522A324-3FDB-43B1-A532-B53861121E24 - f26a42922b28516a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "F522A324-3FDB-43B1-A532-B53861121E24 - f26a42922b285149"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NyTimesApp.NetworkManager.load(_: NyTimesApp.Resource, result: (NyTimesApp.Result&lt;Foundation.Data, NyTimesApp.ErrorResult&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C419780B-8D80-4EB5-B3CD-A639E30B7DC4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Service/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C419780B-8D80-4EB5-B3CD-A639E30B7DC4 - 1ae20b587e053020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NyTimesApp.NetworkManager.load(NyTimesApp.Resource) async throws -&gt; Foundation.Data"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "C419780B-8D80-4EB5-B3CD-A639E30B7DC4 - 1ae20b587e053020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NyTimesApp.NetworkManager.load(NyTimesApp.Resource) async throws -&gt; Foundation.Data"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A26C62EE-B24A-4D40-BFFC-D236B0D3520F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Service/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A26C62EE-B24A-4D40-BFFC-D236B0D3520F - 1ae20b587e05310b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NyTimesApp.NetworkManager.load(NyTimesApp.Resource) async throws -&gt; Foundation.Data"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "A26C62EE-B24A-4D40-BFFC-D236B0D3520F - 1ae20b587e05310b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NyTimesApp.NetworkManager.load(NyTimesApp.Resource) async throws -&gt; Foundation.Data"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "A26C62EE-B24A-4D40-BFFC-D236B0D3520F - bc9d605e3318970a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NyTimesApp.NetworkManager.load(NyTimesApp.Resource) async throws -&gt; Foundation.Data"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "A26C62EE-B24A-4D40-BFFC-D236B0D3520F - bc9d605e3318970a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NyTimesApp.NetworkManager.load(NyTimesApp.Resource) async throws -&gt; Foundation.Data"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Service/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B37A0D64-426F-4279-933B-96EBFA1BB974"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B37A0D64-426F-4279-933B-96EBFA1BB974 - e91bc3cdf456f2e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NyTimesApp.PopularArticlesDetailViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "B37A0D64-426F-4279-933B-96EBFA1BB974 - e91bc3cdf456f205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NyTimesApp.PopularArticlesDetailViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9032E90-0D52-4E90-9F65-452C38E2F931"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesSwiftUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C9032E90-0D52-4E90-9F65-452C38E2F931 - c8462ca009963212"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in NyTimesApp.ArticlesTableCell.body.getter : some"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesSwiftUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "C9032E90-0D52-4E90-9F65-452C38E2F931 - 64222eba21bf7381"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.Spacer)&gt;&gt;)&gt; in NyTimesApp.ArticlesTableCell.body.getter : some"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesSwiftUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "C9032E90-0D52-4E90-9F65-452C38E2F931 - 64222eba21bf704b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.Spacer)&gt;&gt;)&gt; in NyTimesApp.ArticlesTableCell.body.getter : some"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesSwiftUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE16ADE9-7334-48FF-8D53-99CFF27F4509"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesSwiftUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
