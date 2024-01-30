@@ -152,14 +152,14 @@ class MockApiService: APIServiceProtocol {
     func fetchArtcilesWithImages() -> NyTimesApp.Result<PopularArticlesModel, NyTimesApp.ErrorResult> {
        
         return Result.success(PopularArticlesModel(status: "Ok", resultsNumber: 10,
-                                                   articles: [Articles(publishedDate: "10-11-2020", title: "title", abstract: "abstract", byline: "byLine", id: 11234567,
+                                                   articles: [Articles(publishedDate: "29-01-2024", title: "title", abstract: "abstract", byline: "byLine", id: 11234567,
                                                                        media:[Media(mediaMetadata: [Metadata(imageUrl:DEFAULT_URL)])])]))
 
     }
     func fetchArtcilesWithoutImages() -> NyTimesApp.Result<PopularArticlesModel, NyTimesApp.ErrorResult> {
         
         return Result.success(PopularArticlesModel(status: "Ok", resultsNumber: 10,
-                                                   articles: [Articles(publishedDate: "10-11-2020", title: "title", abstract: "abstract", byline: "byLine", id: 11234567,
+                                                   articles: [Articles(publishedDate: "29-01-2024", title: "title", abstract: "abstract", byline: "byLine", id: 11234567,
                                                                        media:[])]))
 
     }

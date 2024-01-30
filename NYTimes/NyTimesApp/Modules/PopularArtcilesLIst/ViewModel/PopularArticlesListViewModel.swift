@@ -12,12 +12,12 @@ protocol PopularArticlesListViewModelProtocol{
     func getPopularArticles() async
 }
 
-class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol, ObservableObject {
+class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol {
     
     let apiService: APIServiceProtocol
     
     
-    @Published var cellViewModels: PopularArticlesModel? {
+    var cellViewModels: PopularArticlesModel? {
     didSet {
         self.reloadTableViewClosure?()
     }
@@ -57,16 +57,15 @@ class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol, Obser
             switch result{
             case .success(let data):
                 self.isLoading = false
-                
-                DispatchQueue.main.async {
-                    self.cellViewModels = data
-                }
+                self.cellViewModels = data
                 
             case .failure(let error):
+                self.isLoading = false
                 self.alertMessage = error.localizedDescription
             }
         }
         catch(let error){
+            self.isLoading = false
             self.alertMessage = error.localizedDescription
         }
 

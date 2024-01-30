@@ -14,9 +14,6 @@ protocol APIServiceProtocol {
 
 class PopularArticlesService:APIServiceProtocol {
     
-    typealias GetFriendsResult = Result<PopularArticlesModel,ErrorResult>
-    typealias GetFriendsCompletion = (_ result: GetFriendsResult) -> Void
-
     private let networkManager: NetworkManagerProtocol?
     
     init(networkManager: NetworkManagerProtocol) {

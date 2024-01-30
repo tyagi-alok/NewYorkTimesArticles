@@ -25,11 +25,3 @@ enum ErrorResult: Error {
 
 }
 
-enum NetworkRequestError: Error {
-    case invalidRequest
-    case unauthorized
-    case serverError
-    case decodingError( _ description: String)
-    case urlSessionFailed(_ error: URLError)
-    case unknownError
-}

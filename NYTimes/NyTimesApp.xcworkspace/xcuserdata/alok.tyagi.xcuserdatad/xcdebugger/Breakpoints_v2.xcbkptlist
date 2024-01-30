@@ -570,49 +570,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "001ACE6D-9522-4A51-ABCE-EFCA3B952EE0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "saveData(for:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EA6584D0-B599-4A1B-AFD7-CE9B51661C8B"
+            uuid = "01F8BDD5-9E3B-4958-91DF-E8E7C807DCF2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NyTimesApp/Modules/PopularArtcilesLIst/View/Controller/PopularArticlesListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "initView()"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "initVM()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "93FAD779-0BBE-4F81-BC26-F971A4BC8D4F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NyTimesApp/Modules/PopularArtcilesLIst/Adapter/PopularArticlesListAdapter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01F8BDD5-9E3B-4958-91DF-E8E7C807DCF2 - d4a2b5e741c9bb99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 @Swift.MainActor () -&gt; () in closure #2 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/NewYorkTimesArticles/NYTimes/NyTimesApp/Modules/PopularArtcilesLIst/View/Controller/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "01F8BDD5-9E3B-4958-91DF-E8E7C807DCF2 - 4bae70fc5315e7ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 () -&gt; () in NyTimesApp.PopularArticlesListViewController.initVM() -&gt; ()"
+                  moduleName = "NyTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alok.tyagi/NewYorkTimesArticles/NYTimes/NyTimesApp/Modules/PopularArtcilesLIst/View/Controller/PopularArticlesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "868">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

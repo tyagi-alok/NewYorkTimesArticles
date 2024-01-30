@@ -104,12 +104,21 @@
                                 <rect key="frame" x="169.5" y="315.5" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data Not Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPs-OI-Lq6">
+                                <rect key="frame" x="111" y="321.5" width="138" height="24"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99215686270000003" green="0.99215686270000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nzG-vT-U3z"/>
                         <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="PPs-OI-Lq6" firstAttribute="centerX" secondItem="EPU-zR-j1M" secondAttribute="centerX" id="Gti-1L-8bZ"/>
                             <constraint firstItem="xTW-6v-D1W" firstAttribute="leading" secondItem="nzG-vT-U3z" secondAttribute="leading" id="NKy-ab-kWK"/>
                             <constraint firstItem="xTW-6v-D1W" firstAttribute="top" secondItem="nzG-vT-U3z" secondAttribute="top" id="YJQ-64-EQt"/>
+                            <constraint firstItem="PPs-OI-Lq6" firstAttribute="centerY" secondItem="EPU-zR-j1M" secondAttribute="centerY" id="fhh-fx-dIJ"/>
                             <constraint firstItem="nzG-vT-U3z" firstAttribute="trailing" secondItem="xTW-6v-D1W" secondAttribute="trailing" id="gJX-WZ-A2a"/>
                             <constraint firstItem="xTW-6v-D1W" firstAttribute="bottom" secondItem="nzG-vT-U3z" secondAttribute="bottom" id="rg5-Bl-B71"/>
                         </constraints>
@@ -118,6 +127,7 @@
                     <size key="freeformSize" width="360" height="667"/>
                     <connections>
                         <outlet property="activityIndicator" destination="g2J-6X-nte" id="r4q-aG-KfQ"/>
+                        <outlet property="errorLabel" destination="PPs-OI-Lq6" id="sYh-gc-t0u"/>
                         <outlet property="tableView" destination="xTW-6v-D1W" id="b2O-bf-oBl"/>
                     </connections>
                 </viewController>

@@ -8,6 +8,7 @@
 
 import UIKit
 
+/*-Adapter class for implementing the Table View delegates and datasource-*/
 class PopularArticlesListAdapter: NSObject {
 
     weak var delegate: ArticleListProtocol?

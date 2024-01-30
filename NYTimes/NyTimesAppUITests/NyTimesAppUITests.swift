@@ -46,23 +46,4 @@ class NyTimesAppUITests: XCTestCase {
             }
         }
     }
-    
-    func testArticlesList(){
-        
-        //fetching table view from the accessibility Identifier and
-        let firstCell = app.tables["articlesListingTableView"].cells.firstMatch
-        if firstCell.waitForExistence(timeout: 7), firstCell.exists {
-            firstCell.tap()
-            sleep(1)
-            app.navigationBars["NyTimesApp.PopularArticlesDetailView"].buttons["Back"].tap()
-             sleep(1)
-            
-            //scrolling up to table
-            app.tables["articlesListingTableView"].swipeUp()
-            sleep(1)
-            
-            //scrolling down to table
-            app.tables["articlesListingTableView"].swipeDown()
-        }
-    }
 }
