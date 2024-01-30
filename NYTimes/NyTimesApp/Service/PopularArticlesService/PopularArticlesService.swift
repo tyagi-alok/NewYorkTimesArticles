@@ -22,7 +22,7 @@ class PopularArticlesService:APIServiceProtocol {
     
     func getPopularArtciles<T:Codable>() async throws -> Result<T,ErrorResult>{
         
-        let resource = Resource(url: URL(string:AppURL.SeeAllPopularArticles)!)
+        let resource = Resource(url: URL(string: baseURL + AppURL.SeeAllPopularArticles)!)
             
         do {
            

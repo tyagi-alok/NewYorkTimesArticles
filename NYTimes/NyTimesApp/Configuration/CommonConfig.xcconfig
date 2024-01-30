@@ -1,0 +1,12 @@
+//
+//  CommonConfig.xcconfig
+//  NyTimesApp
+//
+//  Created by Alok Tyagi on 30/01/24.
+//  Copyright © 2024 Alok. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https:/$()/api.nytimes.com/svc/mostpopular/v2/

@@ -12,6 +12,8 @@
 
 -> Aims to keep everything simple, but modular and reusable.
 
+-> Dev,QA and live environments have been created for the comfiguration management. 
+
 Build, Test.
 
 -> App can be run manually through Xcode inbuilt system by pressing command +R.

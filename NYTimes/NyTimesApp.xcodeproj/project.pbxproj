@@ -60,6 +60,7 @@
 		05B44D7BC1007718879DD4F5 /* Pods-NyTimesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesAppTests.release.xcconfig"; path = "Target Support Files/Pods-NyTimesAppTests/Pods-NyTimesAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		46A565E087509FF1A6AAED13 /* Pods_NyTimesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NyTimesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3105A514C72F838391AFE9 /* Pods-NyTimesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesApp.debug.xcconfig"; path = "Target Support Files/Pods-NyTimesApp/Pods-NyTimesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		56ED12B88299B0328F7B27D4 /* Pods-NyTimesAppTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesAppTests.qa.xcconfig"; path = "Target Support Files/Pods-NyTimesAppTests/Pods-NyTimesAppTests.qa.xcconfig"; sourceTree = "<group>"; };
 		74F969D2E68881ABAB5E2969 /* Pods-NyTimesApp-NyTimesAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesApp-NyTimesAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NyTimesApp-NyTimesAppUITests/Pods-NyTimesApp-NyTimesAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7AD9133B19E3439C5ABB47E4 /* Pods_NyTimesAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NyTimesAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4D522D255BC50100B68785 /* NyTimesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyTimesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,8 +96,14 @@
 		8A751E672B64F336004D85F8 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		8AA88DAF2B691C8A00C9F216 /* PopularArticlesListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularArticlesListRouter.swift; sourceTree = "<group>"; };
 		8AA88DB12B691CF600C9F216 /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
+		8AA88DB82B696FA000C9F216 /* CommonConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonConfig.xcconfig; sourceTree = "<group>"; };
+		8AA88DB92B696FBB00C9F216 /* LiveConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LiveConfig.xcconfig; sourceTree = "<group>"; };
+		8AA88DBA2B696FC700C9F216 /* DevConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevConfig.xcconfig; sourceTree = "<group>"; };
+		8AA88DBB2B696FD100C9F216 /* QAConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QAConfig.xcconfig; sourceTree = "<group>"; };
 		AFCCEE1108C4895114498F3A /* Pods-NyTimesApp-NyTimesAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesApp-NyTimesAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NyTimesApp-NyTimesAppUITests/Pods-NyTimesApp-NyTimesAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFDA47FF2B85EBCF31CDA42F /* Pods-NyTimesApp-NyTimesAppUITests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesApp-NyTimesAppUITests.qa.xcconfig"; path = "Target Support Files/Pods-NyTimesApp-NyTimesAppUITests/Pods-NyTimesApp-NyTimesAppUITests.qa.xcconfig"; sourceTree = "<group>"; };
 		B665DED0DB6F9F283E33077C /* Pods-NyTimesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NyTimesAppTests/Pods-NyTimesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D42D6E68C4E1B80F90801661 /* Pods-NyTimesApp.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesApp.qa.xcconfig"; path = "Target Support Files/Pods-NyTimesApp/Pods-NyTimesApp.qa.xcconfig"; sourceTree = "<group>"; };
 		E3EFA40F8D712AF1FD3AE363 /* Pods-NyTimesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesApp.release.xcconfig"; path = "Target Support Files/Pods-NyTimesApp/Pods-NyTimesApp.release.xcconfig"; sourceTree = "<group>"; };
 		F997FC613EB39F05DA4821A3 /* Pods_NyTimesApp_NyTimesAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NyTimesApp_NyTimesAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,6 +155,9 @@
 				74F969D2E68881ABAB5E2969 /* Pods-NyTimesApp-NyTimesAppUITests.release.xcconfig */,
 				B665DED0DB6F9F283E33077C /* Pods-NyTimesAppTests.debug.xcconfig */,
 				05B44D7BC1007718879DD4F5 /* Pods-NyTimesAppTests.release.xcconfig */,
+				D42D6E68C4E1B80F90801661 /* Pods-NyTimesApp.qa.xcconfig */,
+				AFDA47FF2B85EBCF31CDA42F /* Pods-NyTimesApp-NyTimesAppUITests.qa.xcconfig */,
+				56ED12B88299B0328F7B27D4 /* Pods-NyTimesAppTests.qa.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -177,11 +187,12 @@
 		8A4D522F255BC50100B68785 /* NyTimesApp */ = {
 			isa = PBXGroup;
 			children = (
-				8A5C349D2B66CA64006E9697 /* NetworkManager */,
+				8AA88DB72B696F8800C9F216 /* Configuration */,
 				8A5C349A2B66C9DD006E9697 /* Application */,
 				8A535ED2255EC5C7008A8318 /* Resources */,
 				8A4D527F255D1A0200B68785 /* Extensions */,
 				8A4D5281255D1A0200B68785 /* Modules */,
+				8A5C349D2B66CA64006E9697 /* NetworkManager */,
 				8A4D528C255D1A0200B68785 /* Service */,
 				8A4D523E255BC50400B68785 /* Info.plist */,
 			);
@@ -391,6 +402,17 @@
 				8AA88DAF2B691C8A00C9F216 /* PopularArticlesListRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		8AA88DB72B696F8800C9F216 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8AA88DB82B696FA000C9F216 /* CommonConfig.xcconfig */,
+				8AA88DB92B696FBB00C9F216 /* LiveConfig.xcconfig */,
+				8AA88DBA2B696FC700C9F216 /* DevConfig.xcconfig */,
+				8AA88DBB2B696FD100C9F216 /* QAConfig.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -710,6 +732,7 @@
 /* Begin XCBuildConfiguration section */
 		8A4D5255255BC50500B68785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA88DBA2B696FC700C9F216 /* DevConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -770,6 +793,7 @@
 		};
 		8A4D5256255BC50500B68785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA88DB92B696FBB00C9F216 /* LiveConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -946,6 +970,129 @@
 			};
 			name = Release;
 		};
+		8AA88DB32B696F4700C9F216 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA88DBB2B696FD100C9F216 /* QAConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = QA;
+		};
+		8AA88DB42B696F4700C9F216 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42D6E68C4E1B80F90801661 /* Pods-NyTimesApp.qa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSS587EDR4;
+				INFOPLIST_FILE = NyTimesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alok.NyTimesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA;
+		};
+		8AA88DB52B696F4700C9F216 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56ED12B88299B0328F7B27D4 /* Pods-NyTimesAppTests.qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NyTimesAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alok.NyTimesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NyTimesApp.app/NyTimesApp";
+			};
+			name = QA;
+		};
+		8AA88DB62B696F4700C9F216 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDA47FF2B85EBCF31CDA42F /* Pods-NyTimesApp-NyTimesAppUITests.qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NyTimesAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alok.NyTimesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NyTimesApp;
+			};
+			name = QA;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -953,6 +1100,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A4D5255255BC50500B68785 /* Debug */,
+				8AA88DB32B696F4700C9F216 /* QA */,
 				8A4D5256255BC50500B68785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -962,6 +1110,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A4D5258255BC50500B68785 /* Debug */,
+				8AA88DB42B696F4700C9F216 /* QA */,
 				8A4D5259255BC50500B68785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -971,6 +1120,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A4D525B255BC50500B68785 /* Debug */,
+				8AA88DB52B696F4700C9F216 /* QA */,
 				8A4D525C255BC50500B68785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -980,6 +1130,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A4D525E255BC50500B68785 /* Debug */,
+				8AA88DB62B696F4700C9F216 /* QA */,
 				8A4D525F255BC50500B68785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
