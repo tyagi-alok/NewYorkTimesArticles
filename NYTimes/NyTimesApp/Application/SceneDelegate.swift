@@ -3,7 +3,7 @@
     //  NyTimesApp
     //
     //  Created by Alok Tyagi on 27/01/2024.
-    //  Copyright © 2020 Alok. All rights reserved.
+    //  Copyright © 2024 Alok. All rights reserved.
     //
 
 import UIKit
@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene{
             
             let window = UIWindow(windowScene: windowScene)
-            let articlesController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PopularArticlesListViewController") as! PopularArticlesListViewController
+            let articlesController = mainStoryboard.instantiateViewController(withIdentifier: popularArtcilesListVCIdentifier) as! PopularArticlesListViewController
             
             let navController = UINavigationController(rootViewController: articlesController)
             

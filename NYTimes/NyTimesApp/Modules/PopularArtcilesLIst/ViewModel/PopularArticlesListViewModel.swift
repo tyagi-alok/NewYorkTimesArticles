@@ -3,7 +3,7 @@
 //  NyTimesApp
 //
 //  Created by Alok Tyagi on 27/01/2024.
-//  Copyright © 2020 Alok. All rights reserved.
+//  Copyright © 2024 Alok. All rights reserved.
 //
 
 import Foundation
@@ -38,9 +38,7 @@ class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol, Obser
     var numberOfCells: Int {
         return cellViewModels?.resultsNumber ?? 0
     }
-    
-    var selectedIndexPath: IndexPath?
-    
+        
 
     var reloadTableViewClosure: (()->())?
     var showAlertClosure: (()->())?
@@ -80,8 +78,3 @@ class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol, Obser
 
 }
 
-extension PopularArticlesListViewModel {
-    func userPressed( at indexPath: IndexPath ){
-        self.selectedIndexPath = indexPath
-    }
-}

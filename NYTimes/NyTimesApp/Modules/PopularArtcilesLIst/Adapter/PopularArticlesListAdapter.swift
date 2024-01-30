@@ -3,7 +3,7 @@
 //  NyTimesApp
 //
 //  Created by Alok Tyagi on 27/01/2024.
-//  Copyright © 2020 Alok. All rights reserved.
+//  Copyright © 2024 Alok. All rights reserved.
 //
 
 import UIKit
@@ -19,14 +19,14 @@ class PopularArticlesListAdapter: NSObject {
     }
 }
 
-// MARK: - UICollectionViewDataSource Delegate implementation
+// MARK: - UITableViewDataSource Delegate implementation
 
 extension PopularArticlesListAdapter: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       
         guard let cell = tableView.dequeueReusableCell(withIdentifier: tableCellIdentifier, for: indexPath) as? PopularArticleTableViewCell else {
-            fatalError("Cell not exists in storyboard")
+            fatalError("Cell does not exists in storyboard")
         }
 
         cell.selectionStyle = .none
@@ -47,10 +47,9 @@ extension PopularArticlesListAdapter: UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
-        
-    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+  
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         delegate?.itemSelected(atIndexPath: indexPath)
-        return indexPath
     }
 
 }

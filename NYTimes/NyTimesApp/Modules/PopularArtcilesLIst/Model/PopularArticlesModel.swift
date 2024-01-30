@@ -3,7 +3,7 @@
 //  NyTimesApp
 //
 //  Created by Alok Tyagi on 27/01/2024.
-//  Copyright © 2020 Alok. All rights reserved.
+//  Copyright © 2024 Alok. All rights reserved.
 //
 
 import Foundation
@@ -53,9 +53,11 @@ struct Metadata: Hashable, Codable {
 }
 
 extension PopularArticlesModel {
+    
+    /*--Creating mock data for the Unit testing--*/
     static func with(status: String = "OK",
                      resultsNumber: Int = 10,
-                     articles: [Articles] = [Articles(publishedDate: "10-11-2020", title: "saasada", abstract: "asdadss", byline: "asdsd", id: 11234567, media: [])]) -> PopularArticlesModel
+                     articles: [Articles] = [Articles(publishedDate: "28-01-2024", title: "Title", abstract: "Abstract Title", byline: "Demo", id: 11234567, media: [])]) -> PopularArticlesModel
     {
         return PopularArticlesModel(status: status, resultsNumber: resultsNumber, articles: articles)
     }

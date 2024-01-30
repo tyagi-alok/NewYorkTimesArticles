@@ -491,54 +491,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B37A0D64-426F-4279-933B-96EBFA1BB974"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B37A0D64-426F-4279-933B-96EBFA1BB974 - e91bc3cdf456f2e4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NyTimesApp.PopularArticlesDetailViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "NyTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "192">
-               </Location>
-               <Location
-                  uuid = "B37A0D64-426F-4279-933B-96EBFA1BB974 - e91bc3cdf456f205"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NyTimesApp.PopularArticlesDetailViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "NyTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alok.tyagi/Desktop/NyTimesApp/NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C9032E90-0D52-4E90-9F65-452C38E2F931"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -613,6 +565,54 @@
             endingLineNumber = "134"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "001ACE6D-9522-4A51-ABCE-EFCA3B952EE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesDetail/View/PopularArticlesDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "saveData(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA6584D0-B599-4A1B-AFD7-CE9B51661C8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesLIst/View/Controller/PopularArticlesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "initView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93FAD779-0BBE-4F81-BC26-F971A4BC8D4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NyTimesApp/Modules/PopularArtcilesLIst/Adapter/PopularArticlesListAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

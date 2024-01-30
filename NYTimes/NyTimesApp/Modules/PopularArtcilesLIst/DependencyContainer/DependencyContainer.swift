@@ -8,6 +8,8 @@
 
 import Foundation
 
+/*--Providng dependencies for the differen classes --*/
+
 class DependencyContainer{
     
     static func getViewModelDependency() -> PopularArticlesListViewModelProtocol {

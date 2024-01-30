@@ -3,7 +3,7 @@
 //  NyTimesApp
 //
 //  Created by Alok Tyagi on 27/01/2024.
-//  Copyright © 2020 Alok. All rights reserved.
+//  Copyright © 2024 Alok. All rights reserved.
 //
 
 import UIKit
@@ -103,24 +103,6 @@ class PopularArticlesListViewController: UIViewController {
     }
 }
 
-//Overriding the segue
-extension PopularArticlesListViewController {
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let vc = segue.destination as? PopularArticlesDetailViewController,let artcile = viewModel.getCellViewModel(at: viewModel.selectedIndexPath!),artcile.abstract != nil{
-            vc.titleStr = artcile.title
-            vc.abstractStr = artcile.abstract
-            if artcile.media.count > 0{
-                if artcile.media[0].mediaMetadata.count > 2{
-                    vc.imageUrl = artcile.media[0].mediaMetadata[2].imageUrl
-                }else{
-                    vc.imageUrl = ""
-                }
-            }else{
-                  vc.imageUrl = ""
-            }
-        }
-    }
-}
 
 //Conforming to the protocols for the adapter class
 extension PopularArticlesListViewController : ArticleListProtocol {
@@ -128,17 +110,25 @@ extension PopularArticlesListViewController : ArticleListProtocol {
         return viewModel.getCellViewModel(at: atIndexPath)
     }
     
-    
-    func itemSelected(atIndexPath: IndexPath) {
-        self.viewModel.userPressed(at: atIndexPath)
-    }
-    
-    
     func retrieveNumberOfSections()->Int {
         return 1
     }
 
     func retrieveNumberOfItems()->Int {
         return self.viewModel.numberOfCells
+    }
+    
+    func itemSelected(atIndexPath: IndexPath) {
+        
+        if let article = viewModel.getCellViewModel(at: atIndexPath),article.abstract != nil{
+        
+        guard let detailController = mainStoryboard.instantiateViewController(withIdentifier: popularArtcilesDetailVCIdentifier) as? PopularArticlesDetailViewController else {
+                return
+            }
+            
+            detailController.saveData(for: article)
+            
+            self.navigationController?.pushViewController(detailController, animated: true)
+        }
     }
 }

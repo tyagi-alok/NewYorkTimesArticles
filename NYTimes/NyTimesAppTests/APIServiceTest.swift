@@ -3,7 +3,7 @@
 //  NyTimesAppTests
 //
 //  Created by Alok Tyagi on 28/01/2024.
-//  Copyright © 2020 Alok. All rights reserved.
+//  Copyright © 2024 Alok. All rights reserved.
 //
 
 import XCTest
