@@ -9,12 +9,11 @@
 import UIKit
 
 /*-Adapter class for implementing the Table View delegates and datasource-*/
-class PopularArticlesListAdapter: NSObject {
-
-    weak var delegate: ArticleListProtocol?
-
+final class PopularArticlesListAdapter: NSObject {
+    
+    private weak var delegate: ArticleListProtocol?
+    
     // MARK: - Constructor
-
     init(delegate:ArticleListProtocol) {
         self.delegate = delegate
     }
@@ -25,14 +24,12 @@ class PopularArticlesListAdapter: NSObject {
 extension PopularArticlesListAdapter: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: tableCellIdentifier, for: indexPath) as? PopularArticleTableViewCell else {
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: AppIdentifiers.tableCellIdentifier, for: indexPath) as? PopularArticleTableViewCell else {
             fatalError("Cell does not exists in storyboard")
         }
-
         cell.selectionStyle = .none
         cell.articlesCellViewModel = delegate?.getData(atIndexPath: indexPath )
-
         
         return cell
     }
@@ -48,11 +45,11 @@ extension PopularArticlesListAdapter: UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
-  
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         delegate?.itemSelected(atIndexPath: indexPath)
     }
-
+    
 }
 
 

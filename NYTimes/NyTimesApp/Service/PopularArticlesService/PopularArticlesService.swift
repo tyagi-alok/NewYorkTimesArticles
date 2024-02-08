@@ -12,7 +12,7 @@ protocol APIServiceProtocol {
     func getPopularArtciles<T:Codable>() async throws -> Result<T,ErrorResult>
 }
 
-class PopularArticlesService:APIServiceProtocol {
+final class PopularArticlesService:APIServiceProtocol {
     
     private let networkManager: NetworkManagerProtocol?
     
@@ -21,28 +21,21 @@ class PopularArticlesService:APIServiceProtocol {
     }
     
     func getPopularArtciles<T:Codable>() async throws -> Result<T,ErrorResult>{
-        
         let resource = Resource(url: URL(string: baseURL + AppURL.SeeAllPopularArticles)!)
-            
         do {
-           
             let responseData = try await networkManager?.load(resource)
-            
             guard let responseData = responseData else {
                 return Result.failure(.noData)
             }
             let articles = try self.parseData(T.self, data: responseData)
             return Result.success(articles)
-            
         }
         catch(let error){
             throw error
         }
-        
     }
     
     func parseData<T:Codable>(_ modelType : T.Type, data : Data) throws -> T{
-        
         do{
             let model = try JSONDecoder().decode(modelType.self, from: data)
             return model
@@ -51,6 +44,4 @@ class PopularArticlesService:APIServiceProtocol {
             throw error
         }
     }
-
-    
 }

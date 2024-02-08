@@ -10,27 +10,21 @@ import Foundation
 
 /*--Providng dependencies for the differen classes --*/
 
-class DependencyContainer{
+final class DependencyContainer{
     
     static func getViewModelDependency() -> PopularArticlesListViewModelProtocol {
-        
         let viewModel = PopularArticlesListViewModel(apiService: getAPIServiceDependency())
-        
         return viewModel
     }
     
     static func getAPIServiceDependency() -> APIServiceProtocol {
-        
         let apiService = PopularArticlesService(networkManager: getNetworkManagerDependency())
         return apiService
-        
     }
     
     static func getNetworkManagerDependency() -> NetworkManagerProtocol {
-        
         let networkManager = NetworkManager()
         return networkManager
-        
     }
     
 }

@@ -9,21 +9,20 @@
 import UIKit
 
 class PopularArticlesDetailViewController: UIViewController {
-
-    @IBOutlet weak var titleLabel:UILabel!
-    @IBOutlet weak var abstractLabel:UILabel!
-    @IBOutlet weak var mainImageView:UIImageView!
     
-    var imageUrl: String?
-    var abstractStr:String?
-    var titleStr:String?
+    @IBOutlet private weak var titleLabel:UILabel!
+    @IBOutlet private weak var abstractLabel:UILabel!
+    @IBOutlet private weak var mainImageView:UIImageView!
+    
+    private var imageUrl: String?
+    private var abstractStr:String?
+    private var titleStr:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //init the UI
         setUpUI()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -49,13 +48,11 @@ class PopularArticlesDetailViewController: UIViewController {
         if let title = titleStr{
             titleLabel.text = title
         }
-        
         if let abstract = abstractStr{
             abstractLabel.text = abstract
         }
         if let image = imageUrl{
             mainImageView?.sd_setImage(with: URL( string: image), completed: nil)
         }
-        
     }
 }

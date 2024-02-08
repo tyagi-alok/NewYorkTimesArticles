@@ -12,16 +12,14 @@ protocol PopularArticlesListViewModelProtocol{
     func getPopularArticles() async
 }
 
-class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol {
+final class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol {
     
     let apiService: APIServiceProtocol
-    
-    
     var cellViewModels: PopularArticlesModel? {
-    didSet {
-        self.reloadTableViewClosure?()
+        didSet {
+            self.reloadTableViewClosure?()
+        }
     }
-}
     
     var isLoading: Bool = false {
         didSet {
@@ -38,12 +36,11 @@ class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol {
     var numberOfCells: Int {
         return cellViewModels?.resultsNumber ?? 0
     }
-        
-
+    
     var reloadTableViewClosure: (()->())?
     var showAlertClosure: (()->())?
     var updateLoadingStatus: (()->())?
-
+    
     init( apiService: APIServiceProtocol = PopularArticlesService(networkManager: NetworkManager())) {
         self.apiService = apiService
     }
@@ -53,7 +50,6 @@ class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol {
         
         do{
             let result:Result<PopularArticlesModel,ErrorResult> = try await apiService.getPopularArtciles()
-           
             switch result{
             case .success(let data):
                 self.isLoading = false
@@ -68,12 +64,12 @@ class PopularArticlesListViewModel : PopularArticlesListViewModelProtocol {
             self.isLoading = false
             self.alertMessage = error.localizedDescription
         }
-
+        
     }
     
     func getCellViewModel( at indexPath: IndexPath ) -> Articles? {
-            return cellViewModels?.articles[indexPath.row]
+        return cellViewModels?.articles[indexPath.row]
     }
-
+    
 }
 

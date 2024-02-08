@@ -10,64 +10,54 @@ import UIKit
 
 class PopularArticlesListViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView?
-    @IBOutlet weak var errorLabel: UILabel?
+    @IBOutlet private weak var tableView: UITableView?
+    @IBOutlet private weak var errorLabel: UILabel?
 
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
+    @IBOutlet private weak var activityIndicator: UIActivityIndicatorView?
 
-    var adapter : PopularArticlesListAdapter?
-    var router : PopularArticlesListRouter?
+    private var adapter : PopularArticlesListAdapter?
+    private var router : PopularArticlesListRouter?
     
-    var viewModel : PopularArticlesListViewModel?
+    private var viewModel : PopularArticlesListViewModel?
 
     // MARK: - Module Creation
    static func createPopularArticleList() -> UIViewController {
-        let articlesController = mainStoryboard.instantiateViewController(withIdentifier: popularArtcilesListVCIdentifier) as! PopularArticlesListViewController
+       let articlesController = AppStoryboards.mainStoryboard.instantiateViewController(withIdentifier: AppIdentifiers.popularArtcilesListVCIdentifier) as! PopularArticlesListViewController
         articlesController.viewModel = DependencyContainer.getViewModelDependency() as? PopularArticlesListViewModel
-        
        articlesController.router = PopularArticlesListRouter()
        articlesController.router?.viewController = articlesController
-        
         return articlesController
     }
     
     // MARK: - View Controller Methods
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Init the static view
         initView()
-        
         // init view model
         initVM()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
         //set up Nav Bar
         setUpTitle()
     }
     
     func setUpTitle(){
-        
-        self.navigationItem.title = APP_TITLE
-
+        self.navigationItem.title = AppStrings.APP_TITLE
     }
     
     func initView() {
-        
         adapter = PopularArticlesListAdapter(delegate: self)
         tableView?.delegate = adapter
         tableView?.dataSource = adapter
-
         tableView?.estimatedRowHeight = 150
         tableView?.rowHeight = UITableView.automaticDimension
     }
 
     func initVM() {
-        
         // Naive binding
         viewModel?.showAlertClosure = { [weak self] () in
             DispatchQueue.main.async {
@@ -106,16 +96,16 @@ class PopularArticlesListViewController: UIViewController {
         }
         
         Task{
-           await viewModel?.getPopularArticles()
+            await viewModel?.getPopularArticles()
             
         }
-
+        
     }
     
 /*--showing the error message if no data receive from the API--*/
   private func showAlert( _ message: String ) {
-        let alert = UIAlertController(title: ALERT_TITLE, message: message, preferredStyle: .alert)
-        alert.addAction( UIAlertAction(title: ALERT_OK_BUTTON_TITLE, style: .cancel, handler: nil))
+      let alert = UIAlertController(title: AppStrings.ALERT_TITLE, message: message, preferredStyle: .alert)
+      alert.addAction( UIAlertAction(title: AppStrings.ALERT_OK_BUTTON_TITLE, style: .cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
 }

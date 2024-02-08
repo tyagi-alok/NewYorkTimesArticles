@@ -10,7 +10,6 @@ import Foundation
 
 struct AppURL {
     static let SeeAllPopularArticles = "viewed/1.json?api-key=kDOFCueo43oe8wKfh7YxV4qadA3YGGey"
-    
 }
 
 var baseURL: String! {

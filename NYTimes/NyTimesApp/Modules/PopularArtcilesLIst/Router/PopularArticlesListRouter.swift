@@ -21,31 +21,26 @@ protocol Router{
 
 /*--Router class for routing any screen from the Popular Articles List screen-*/
 class PopularArticlesListRouter : Router{
-   
+    
     var viewController : UIViewController?
     
     func navigateToScreen(screenType: Screentype, data: Articles?) {
-        
         switch screenType {
         case .PopularArticlesDetail:
             navigateToArticlesDetail(with: data)
         }
-        
     }
 }
 
 extension PopularArticlesListRouter {
     
     private func navigateToArticlesDetail(with data : Articles?){
-        
         if let article = data,article.abstract != nil{
-
-            guard let detailController = mainStoryboard.instantiateViewController(withIdentifier: popularArtcilesDetailVCIdentifier) as? PopularArticlesDetailViewController else {
+            guard let detailController = AppStoryboards.mainStoryboard.instantiateViewController(withIdentifier: AppIdentifiers.popularArtcilesDetailVCIdentifier) as? PopularArticlesDetailViewController else {
                 return
             }
             detailController.saveData(for: article)
             viewController?.navigationController?.pushViewController(detailController, animated: true)
-            
         }
     }
     

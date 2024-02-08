@@ -12,13 +12,12 @@ protocol NetworkManagerProtocol{
     func load(_ resource: Resource) async throws -> Data
 }
 
-class NetworkManager : NetworkManagerProtocol{
+final class NetworkManager : NetworkManagerProtocol{
     
     init(){}
     
     func load(_ resource: Resource) async throws -> Data {
         let request = URLRequest(resource)
-        
         do{
             let (data,response) = try await URLSession.shared.data(for: request)
             guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
@@ -26,7 +25,6 @@ class NetworkManager : NetworkManagerProtocol{
             }
             return data
         }
-        
         catch(let error){
             throw error
         }
